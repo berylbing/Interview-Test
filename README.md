@@ -79,7 +79,7 @@ Cars Exited: 1
 Trucks Exited: 0  
 Parking Cars: 1  
 Parking Trucks: 1  
-Spaces available: 8  
+Spaces available: 7  
 Fees paid: $4  
 ```
 _QUIT_  
