@@ -14,7 +14,7 @@ Eclipse 4.6
 
 ### Project structure
 
-[Application.java](https://github.com/berylbing/Interview-Test/blob/master/ParkingSimulation/src/org/berylbing/parking/Application.java) - The entry of the project verifing the input of Users.
+[Application.java](https://github.com/berylbing/Interview-Test/blob/master/ParkingSimulation/src/org/berylbing/parking/Application.java) - The entry of the project verifying the input of Users.
 
 [VehicleParking.java](https://github.com/berylbing/Interview-Test/blob/master/ParkingSimulation/src/org/berylbing/parking/VehicleParking.java) - Vehicle parking interface
 
