@@ -42,9 +42,9 @@ The following table shows some examples of the test. When user input invalid com
 
      Test Commands         | Input Example              | Output
      --------------------- |:---------------------------|:--------------------
-     `Space number`        | `ds`                       | `Invild Input!`
-     `ENTER CAR`           | `entering car`             | `Invild Input!`
-     `EXIT CAR 2`          | `EXIT CAR r`               | `Invild Input!`
+     Space number          | ds                         | Invild Input!
+     ENTER CAR             | entering car               | Invild Input!
+     EXIT CAR 2            | EXIT CAR r                 | Invild Input!
 
 ### Correctness of the output
 
@@ -53,11 +53,12 @@ The followings are some examples of the test.
 
 ####Example 1 - Correctness
 
-How many spaces does the car park have?
-_10_
-_ENTER CAR_
-_ENTER CAR_
-_REPORT_
+`How many spaces does the car park have?`
+_10_  
+_ENTER CAR_  
+_ENTER CAR_  
+_REPORT_  
+```
 Cars Entered: 2
 Trucks Entered: 0
 Cars Exited: 0
@@ -66,26 +67,28 @@ Parking Cars: 2
 Parking Trucks: 0
 Spaces available: 8
 Fees paid: $0
-
-_ENTER TRUCK_
-_EXIT CAR 2_
-_REPORT_
-Cars Entered: 2
-Trucks Entered: 1
-Cars Exited: 1
-Trucks Exited: 0
-Parking Cars: 1
-Parking Trucks: 1
-Spaces available: 8
-Fees paid: $4
-_QUIT_
-SYSTEM QUIT!
+```
+_ENTER TRUCK_  
+_EXIT CAR 2_  
+_REPORT_  
+```
+Cars Entered: 2  
+Trucks Entered: 1  
+Cars Exited: 1  
+Trucks Exited: 0  
+Parking Cars: 1  
+Parking Trucks: 1  
+Spaces available: 8  
+Fees paid: $4  
+```
+_QUIT_  
+`SYSTEM QUIT! ` 
 
 ####Example 2 - The program can be exited at any time
 
-How many spaces does the car park have?
-_QUIT_
-SYSTEM QUIT!
+`How many spaces does the car park have?`
+_QUIT_  
+`SYSTEM QUIT!`
 
 
 ## Contributors
