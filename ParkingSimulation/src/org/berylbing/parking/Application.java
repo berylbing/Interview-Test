@@ -1,3 +1,10 @@
+/** 
+Interview test - car park simulation
+The entry of the project verifying the input of Users.
+@author Beryl 
+@version v.1.0 
+*/ 
+
 package org.berylbing.parking;
 
 import java.util.Scanner;

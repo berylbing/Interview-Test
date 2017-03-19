@@ -1,3 +1,9 @@
+/** 
+A ParkingRecords Class - records the parking state including cars/trucks enter/exit number and the spaces of the parking lots, and prints the reports.
+@author Beryl 
+@version v.1.0 
+*/ 
+
 package org.berylbing.parking;
 
 public class ParkingRecords {

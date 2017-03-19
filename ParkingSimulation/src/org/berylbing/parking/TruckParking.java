@@ -1,3 +1,9 @@
+/** 
+A TruckParking Class - The implementation of VehicleParking specific for trucks.
+@author Beryl 
+@version v.1.0 
+*/ 
+
 package org.berylbing.parking;
 
 public class TruckParking implements VehicleParking{

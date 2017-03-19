@@ -1,3 +1,10 @@
+/** 
+A CarParking Class - The implementation of VehicleParking specific for cars.
+@author Beryl 
+@version v.1.0 
+*/ 
+
+
 package org.berylbing.parking;
 
 public class CarParking implements VehicleParking{
