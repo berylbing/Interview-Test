@@ -41,18 +41,18 @@ This project require user input commands to record the vehicles enter or exit. I
 The following table shows some examples of the test. When user input invalid commands, the program will report "Invild Input!".
 
      Test Commands         | Input Example              | Output
-     --------------- |:-------------------------------------|:--------------------
-     `Space number`       | `ds`               | `Invild Input!`
-     `ENTER CAR`        | `entering car`                   | `Invild Input!`
-     `EXIT CAR 2`         | `EXIT CAR r`                  | `Invild Input!`
+     --------------------- |:---------------------------|:--------------------
+     `Space number`        | `ds`                       | `Invild Input!`
+     `ENTER CAR`           | `entering car`             | `Invild Input!`
+     `EXIT CAR 2`          | `EXIT CAR r`               | `Invild Input!`
 
 ### Correctness of the output
 
 In this part, the correctness of the action of validated commands and the correctness of the reports will be verified.
 The followings are some examples of the test.
 
-Example 1 - Correctness
-```
+####Example 1 - Correctness
+
 How many spaces does the car park have?
 _10_
 _ENTER CAR_
@@ -80,13 +80,13 @@ Spaces available: 8
 Fees paid: $4
 _QUIT_
 SYSTEM QUIT!
-```
-Example 2 - The program can be exited at any time
-```
+
+####Example 2 - The program can be exited at any time
+
 How many spaces does the car park have?
 _QUIT_
 SYSTEM QUIT!
-```
+
 
 ## Contributors
 
