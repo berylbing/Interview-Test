@@ -1,6 +1,6 @@
 # Test - CAR PARK SIMULATION
 
-Using Java create a simulation of a car park regarding the requirement in CAR_PARK_SIMULATION.docx. The program will record vehicles entering and exiting the car park, as well as the total balance of parking fees paid.
+Using Java create a simulation of a car park regarding the requirement in [CAR_PARK_SIMULATION.docx](https://github.com/berylbing/Interview-Test/blob/master/CAR_PARK_SIMULATION.docx). The program will record vehicles entering and exiting the car park, as well as the total balance of parking fees paid.
 
 ## Introduction
 
@@ -9,6 +9,7 @@ This project has acomplished the reqirements in the CAR_PARK_SIMULATION.docx, wi
 ### Developing environment
 
 Java JDK 1.8
+
 Eclipse 4.6
 
 ### Project structure
