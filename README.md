@@ -18,12 +18,10 @@ Eclipse 4.6
 
 [VehicleParking.java](https://github.com/berylbing/Interview-Test/blob/master/ParkingSimulation/src/org/berylbing/parking/VehicleParking.java) - Vehicle parking interface
 
-```
+```java
 public interface VehicleParking {
-	
 	public int getSpaceOccupied();
 	public int getFee(int time);
-	
 }
 ```
 
@@ -39,21 +37,56 @@ The projet will be tested in user input and the correctness of the output.
 
 ### User input 
 
-This project require user input commands to record the vehicles enter or exit. In this part, the invalid commands will be tested.
+This project require user input commands to record the vehicles enter or exit. In this part, the invalid commands will be tested. 
+The following table shows some examples of the test. When user input invalid commands, the program will report "Invild Input!".
 
-```
-Give an example
-```
+     Test Commands         | Input Example              | Output
+     --------------- |:-------------------------------------|:--------------------
+     `Space number`       | `ds`               | `Invild Input!`
+     `ENTER CAR`        | `entering car`                   | `Invild Input!`
+     `EXIT CAR 2`         | `EXIT CAR r`                  | `Invild Input!`
 
 ### Correctness of the output
 
 In this part, the correctness of the action of validated commands and the correctness of the reports will be verified.
+The followings are some examples of the test.
 
+Example 1 - Correctness
 ```
-Give an example
+How many spaces does the car park have?
+_10_
+_ENTER CAR_
+_ENTER CAR_
+_REPORT_
+Cars Entered: 2
+Trucks Entered: 0
+Cars Exited: 0
+Trucks Exited: 0
+Parking Cars: 2
+Parking Trucks: 0
+Spaces available: 8
+Fees paid: $0
+
+_ENTER TRUCK_
+_EXIT CAR 2_
+_REPORT_
+Cars Entered: 2
+Trucks Entered: 1
+Cars Exited: 1
+Trucks Exited: 0
+Parking Cars: 1
+Parking Trucks: 1
+Spaces available: 8
+Fees paid: $4
+_QUIT_
+SYSTEM QUIT!
 ```
-
-
+Example 2 - The program can be exited at any time
+```
+How many spaces does the car park have?
+_QUIT_
+SYSTEM QUIT!
+```
 
 ## Contributors
 
